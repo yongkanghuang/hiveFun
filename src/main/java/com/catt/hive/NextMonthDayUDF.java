@@ -8,17 +8,17 @@ import java.util.Calendar;
 import java.util.Date;
 
 /**
- * @Description  
+ * @Description  获取月份的一号
  * @Author hyk
  * @Date 2018/12/21 19:27
  **/
 public class NextMonthDayUDF extends UDF {
 
     /**
-     * ????·?????
-     * @param date ????
-     * @param num ?·?
-     * @param day ????
+     * 获取月份的一号
+     * @param date 日期
+     * @param num 月份
+     * @param day 天
      * @return
      */
     public Integer  evaluate(Integer  date, Integer  num,Integer  day){
